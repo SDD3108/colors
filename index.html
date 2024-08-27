@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .blocks{
+        display: grid;
+        grid-template-columns: repeat(3,300px);
+        grid-template-rows: 300px 300px 300px;
+        gap: 25px;
+        justify-content: center;
+    }
+    .block{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+</style>
+<body>
+    <div class="blocks"></div>
+    <script src="app.js"></script>
+</body>
+</html>
